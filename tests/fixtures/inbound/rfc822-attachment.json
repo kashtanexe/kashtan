@@ -1,0 +1,44 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.filtr.ai",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [
+    {
+      "Name": "Browser DLP for GenAI.eml",
+      "ContentType": "message/rfc822",
+      "ContentLength": 0,
+      "Content": "UmV0dXJuLVBhdGg6IDx0b21AdmVpbGdhdGUuYWk+DQpGcm9tOiA9P1VURi04P0I/Vkc5dElFaGhjblJzWlhrPT89IDx0b21AdmVpbGdhdGUuYWk+DQpUbzogQ2xhaXJlIER1Ym9pcyA8Y2xhaXJlLmR1Ym9pc0Bub3J0aHdpbmRwYXkuZXU+DQpTdWJqZWN0OiBCcm93c2VyIERMUCBmb3IgR2VuQUkNCkRhdGU6IE1vbiwgMTkgT2N0IDIwMjYgMDY6NTg6MDAgKzAwMDANCk1lc3NhZ2UtSUQ6IDxhYmMxMjNAdmVpbGdhdGUuYWk+DQpNSU1FLVZlcnNpb246IDEuMA0KQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvYWx0ZXJuYXRpdmU7IGJvdW5kYXJ5PSJiMSINCg0KLS1iMQ0KQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04DQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBxdW90ZWQtcHJpbnRhYmxlDQoNCkhpIENsYWlyZSwgMSBpbiA1IGVtcGxveWVlcyBwYXN0ZSBjdXN0b21lciBkYXRhIGludG8gcHVibGljIExMTXMuIFdlIHJlZGFjdCBpdCBpbiB0aGUgYnJvd3NlciA9DQpiZWZvcmUgaXQgbGVhdmVzLiAxNSBtaW51dGVzPw0KLS1iMQ0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgNCg0KPHA+SGkgQ2xhaXJlPC9wPg0KLS1iMS0tDQo="
+    }
+  ],
+  "MessageID": "fx-rfc822-0001",
+  "Subject": "Fwd: Browser DLP for GenAI",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    }
+  ],
+  "TextBody": "See attached."
+}

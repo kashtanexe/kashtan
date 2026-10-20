@@ -1,0 +1,41 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.filtr.ai",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-outlook-fr-0001",
+  "Subject": "TR: Automatisation du registre DORA",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    },
+    {
+      "Name": "X-Mailer",
+      "Value": "Microsoft Outlook 16.0"
+    }
+  ],
+  "TextBody": "Peux-tu regarder ?\n\nClaire\n\n________________________________\nDe : Julien Moreau <julien.moreau@registra-conformite.fr>\nEnvoyé : lundi 19 octobre 2026 08:41\nÀ : Claire Dubois <claire.dubois@northwindpay.eu>\nObjet : Automatisation du registre DORA\n\nBonjour Claire,\n\nNous aidons les établissements de paiement à automatiser le registre d'information DORA. 20 minutes la semaine prochaine ?\n\nJulien"
+}

@@ -1,0 +1,37 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.filtr.ai",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-gmail-nl-0001",
+  "Subject": "Fwd: Red teaming onder DORA (TLPT)",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    }
+  ],
+  "TextBody": "---------- Doorgestuurd bericht ---------\nVan: Erik Lund <erik.lund@northlight-sec.eu>\nDate: ma 19 okt 2026 om 08:30\nSubject: Red teaming onder DORA (TLPT)\nTo: <claire.dubois@northwindpay.eu>\n\nBeste Claire,\n\nWe hebben nog twee TLPT-slots in H1 2027.\n\nErik"
+}

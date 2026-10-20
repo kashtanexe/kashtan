@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.prose-tight p { @apply mb-3; }
+
+@layer components {
+  .field-label { @apply mb-1.5 block text-sm font-medium text-slate-800; }
+  .field-hint { @apply mt-1 text-xs text-slate-500; }
+}

@@ -1,0 +1,35 @@
+{
+  "FromName": "Laura Chen",
+  "MessageStream": "inbound",
+  "From": "laura.chen@atlasendpoint.com",
+  "FromFull": {
+    "Email": "laura.chen@atlasendpoint.com",
+    "Name": "Laura Chen"
+  },
+  "To": "claire.dubois@in.filtr.ai",
+  "ToFull": [
+    {
+      "Email": "claire.dubois@in.filtr.ai",
+      "Name": "Claire Dubois"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois@in.filtr.ai",
+  "ReplyTo": "",
+  "MailboxHash": "",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-direct-0001",
+  "Subject": "EDR consolidation: 15 minutes?",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=atlasendpoint.com; dmarc=pass header.from=atlasendpoint.com"
+    }
+  ],
+  "TextBody": "Hi Claire, teams like yours consolidated three endpoint agents into one and cut cost 30%. Would you be open to a 15 minute call next week?\n\nLaura"
+}

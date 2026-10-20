@@ -1,0 +1,37 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.filtr.ai",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.filtr.ai",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-spoof-0001",
+  "Subject": "Fwd: please contact",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=none; spf=fail smtp.mailfrom=northwindpay.eu; dmarc=fail (p=REJECT) header.from=northwindpay.eu"
+    }
+  ],
+  "TextBody": "---------- Forwarded message ---------\nFrom: Victim <victim@innocent-company.com>\nSubject: hello\n\nSpam relay attempt."
+}
