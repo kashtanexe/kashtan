@@ -33,7 +33,7 @@ export default function MarketingLayout({ children }: { children: React.ReactNod
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-10 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <div className="flex items-center gap-3">
             <Logo />
-            <span>© {new Date().getFullYear()} GatekeeperAI. Made in the EU.</span>
+            <span>© {new Date().getFullYear()} FILTR. Made in the EU.</span>
           </div>
           <div className="flex flex-wrap gap-4">
             <Link href="/for-vendors">For vendors</Link>

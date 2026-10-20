@@ -43,7 +43,7 @@ export default function PricingPage() {
     <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
       <div className="mx-auto max-w-2xl text-center">
         <h1 className="text-4xl font-bold tracking-tight">Simple pricing</h1>
-        <p className="mt-3 text-slate-600">Executives use GatekeeperAI for free. Vendors can optionally pay for a guaranteed, refundable Fast-Track review.</p>
+        <p className="mt-3 text-slate-600">Executives use FILTR for free. Vendors can optionally pay for a guaranteed, refundable Fast-Track review.</p>
       </div>
       <div className="mt-12 grid gap-6 lg:grid-cols-3">
         {tiers.map((t) => (
@@ -69,7 +69,7 @@ export default function PricingPage() {
       </div>
       <div className="mx-auto mt-12 max-w-3xl rounded-2xl bg-slate-50 p-6 text-sm text-slate-600">
         <strong className="text-slate-900">Vendor Fast-Track:</strong> ~€30 per pitch (set by each executive). Guaranteed human review within 7 days or an automatic
-        refund. The fee goes to GatekeeperAI, never to the executive; executives can donate it to charity instead.
+        refund. The fee goes to FILTR, never to the executive; executives can donate it to charity instead.
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ export function VendorShell({ children }: { children: React.ReactNode }) {
       </header>
       <main className="mx-auto max-w-3xl px-4 pb-20">{children}</main>
       <footer className="mx-auto max-w-3xl px-4 pb-10 text-center text-xs text-slate-400">
-        Powered by GatekeeperAI · Any Fast-Track fee goes to GatekeeperAI, never to the executive · <a href="/for-vendors" className="underline">How this works</a>
+        Powered by FILTR · Any Fast-Track fee goes to FILTR, never to the executive · <a href="/for-vendors" className="underline">How this works</a>
       </footer>
     </div>
   );

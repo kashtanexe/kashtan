@@ -7,7 +7,7 @@ export function deskFrom(execName: string): string {
 }
 
 export function digestFrom(): string {
-  return `"GatekeeperAI" <digest@${mailDomains().from}>`;
+  return `"FILTR" <digest@${mailDomains().from}>`;
 }
 
 /** A vendor who just hits "reply" lands back in the same pitch. */

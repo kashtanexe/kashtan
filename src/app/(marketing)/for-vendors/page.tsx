@@ -10,7 +10,7 @@ export default function ForVendorsPage() {
     <div className="mx-auto max-w-4xl px-4 py-20 sm:px-6">
       <h1 className="text-4xl font-bold tracking-tight">Got a reply from a Vendor Desk?</h1>
       <p className="mt-4 text-lg text-slate-600">
-        The executive you emailed uses GatekeeperAI to review vendors. Instead of your sequence getting lost, you get a fair, structured shot: a 60-second brief
+        The executive you emailed uses FILTR to review vendors. Instead of your sequence getting lost, you get a fair, structured shot: a 60-second brief
         that is matched against what they actually need this quarter.
       </p>
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
@@ -31,7 +31,7 @@ export default function ForVendorsPage() {
         })}
       </div>
       <div className="mt-10 rounded-2xl bg-amber-50 p-6 text-sm text-amber-900 ring-1 ring-inset ring-amber-200">
-        <strong>Ethics note.</strong> Fast-Track fees are paid to GatekeeperAI, never to the executive, and buy a guaranteed review, not a meeting. Executives can
+        <strong>Ethics note.</strong> Fast-Track fees are paid to FILTR, never to the executive, and buy a guaranteed review, not a meeting. Executives can
         choose to donate the fees to charity or disable Fast-Track entirely, in line with corporate gift and anti-bribery policies.
       </div>
       <div className="mt-10">

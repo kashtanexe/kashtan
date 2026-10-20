@@ -32,7 +32,7 @@ export default async function FastTrackSettingsPage({ searchParams }: { searchPa
         </Card>
         <Card className="p-4">
           <div className="text-2xl font-bold">{formatEur(paid)}</div>
-          <div className="text-xs text-slate-500">Held (to GatekeeperAI)</div>
+          <div className="text-xs text-slate-500">Held (to FILTR)</div>
         </Card>
         <Card className="p-4">
           <div className="text-2xl font-bold">{refunded}</div>

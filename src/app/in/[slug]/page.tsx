@@ -109,7 +109,7 @@ export default async function PitchMePage({ params, searchParams }: { params: Pr
                   <div className="font-medium">Optional Fast-Track · {formatEur(exec.fastTrackPriceCents, exec.currency)}</div>
                   <div className="text-slate-500">
                     Guaranteed personal review within 7 days or an automatic refund.
-                    {exec.charityEnabled && exec.charityName ? ` Fees are donated to ${exec.charityName}.` : " Paid to GatekeeperAI, never to the executive."}
+                    {exec.charityEnabled && exec.charityName ? ` Fees are donated to ${exec.charityName}.` : " Paid to FILTR, never to the executive."}
                   </div>
                 </div>
               </div>

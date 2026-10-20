@@ -9,7 +9,7 @@ const load = (name: string) =>
 
 const opts = {
   excludeAddresses: ["claire.dubois@northwindpay.eu", "c.dubois@northwindpay.eu"],
-  excludeDomains: ["in.gatekeeperai.app", "mail.gatekeeperai.app"],
+  excludeDomains: ["in.filtr.ai", "mail.filtr.ai"],
 };
 
 describe("extractOriginalSender: fixtures per mail client", () => {

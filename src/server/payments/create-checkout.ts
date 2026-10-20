@@ -27,7 +27,7 @@ export async function createFastTrackCheckout(pitchId: string): Promise<{ url: s
             unit_amount: exec.fastTrackPriceCents,
             product_data: {
               name: `Fast-Track review by ${exec.fullName}`,
-              description: "Guaranteed personal review within 7 days, or an automatic refund. Paid to GatekeeperAI, never to the executive.",
+              description: "Guaranteed personal review within 7 days, or an automatic refund. Paid to FILTR, never to the executive.",
             },
           },
         },

@@ -1,4 +1,4 @@
-# GatekeeperAI
+# FILTR
 
 **The vendor desk for busy executives.** Cold pitches answer four hard questions before they reach you. AI scores them against your private quarterly priorities, and you only see the two or three worth a meeting, as one-glance **Baseball Cards**.
 
@@ -99,8 +99,8 @@ All optional. See `.env.example`.
 | `POSTMARK_SERVER_TOKEN` | Sending email | Emails captured in Outbox |
 | `POSTMARK_INBOUND_USER`, `POSTMARK_INBOUND_PASSWORD` | Basic auth on inbound/events webhooks | Webhooks open (demo only) |
 | `POSTMARK_CHALLENGE_STREAM`, `POSTMARK_DIGEST_STREAM` | Separate message streams | `outbound` |
-| `MAIL_FROM_DOMAIN` | Authenticated sending subdomain (`desk@…`) | `mail.gatekeeperai.app` |
-| `INBOUND_DOMAIN` | Alias / Reply-To domain (MX → Postmark) | `in.gatekeeperai.app` |
+| `MAIL_FROM_DOMAIN` | Authenticated sending subdomain (`desk@…`) | `mail.filtr.ai` |
+| `INBOUND_DOMAIN` | Alias / Reply-To domain (MX → Postmark) | `in.filtr.ai` |
 | `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` | Fast-Track Checkout, webhook, refunds | Simulated checkout |
 | `ANTHROPIC_API_KEY` | Claude scoring + triage | Heuristic scorer |
 | `ANTHROPIC_MODEL` | Scoring model | `claude-sonnet-5-5` |

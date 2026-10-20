@@ -6,16 +6,16 @@
     "Email": "sam.oneill@gridline.net",
     "Name": "Sam O'Neill"
   },
-  "To": "r+tok_gridline@in.gatekeeperai.app",
+  "To": "r+tok_gridline@in.filtr.ai",
   "ToFull": [
     {
-      "Email": "r+tok_gridline@in.gatekeeperai.app",
+      "Email": "r+tok_gridline@in.filtr.ai",
       "Name": ""
     }
   ],
   "Cc": "",
   "CcFull": [],
-  "OriginalRecipient": "r+tok_gridline@in.gatekeeperai.app",
+  "OriginalRecipient": "r+tok_gridline@in.filtr.ai",
   "ReplyTo": "",
   "MailboxHash": "tok_gridline",
   "Date": "Mon, 19 Oct 2026 09:14:02 +0200",

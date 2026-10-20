@@ -113,7 +113,7 @@ export default function LandingPage() {
               Your inbox is not a <span className="text-brand-600">sales channel.</span>
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-slate-600">
-              GatekeeperAI is the vendor desk for busy executives. Cold pitches answer four hard questions first, AI scores them against your private quarterly
+              FILTR is the vendor desk for busy executives. Cold pitches answer four hard questions first, AI scores them against your private quarterly
               priorities, and you only see the two or three worth a meeting.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -200,7 +200,7 @@ export default function LandingPage() {
             </Badge>
             <h2 className="text-3xl font-bold tracking-tight">We never touch your mailbox.</h2>
             <p className="mt-4 text-slate-300">
-              No OAuth. No mailbox scopes. No “read all your email”. GatekeeperAI only sees what vendors send to your link or alias, and what you choose to
+              No OAuth. No mailbox scopes. No “read all your email”. FILTR only sees what vendors send to your link or alias, and what you choose to
               forward. Your CISO will like it, especially if you are the CISO.
             </p>
           </div>

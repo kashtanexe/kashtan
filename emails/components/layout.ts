@@ -17,7 +17,7 @@ export interface RenderedEmail {
 
 export function layout(opts: { preheader?: string; body: string; footer?: string }): string {
   return `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GatekeeperAI</title></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FILTR</title></head>
 <body style="margin:0;padding:0;background:#f4f6fb;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#0f172a;">
 <span style="display:none;max-height:0;overflow:hidden;opacity:0">${esc(opts.preheader ?? "")}</span>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f4f6fb;padding:24px 12px;">
@@ -25,7 +25,7 @@ export function layout(opts: { preheader?: string; body: string; footer?: string
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:14px;border:1px solid #e5e7eb;">
 <tr><td style="padding:28px 32px 8px 32px;font-size:15px;line-height:1.6;">${opts.body}</td></tr>
 <tr><td style="padding:8px 32px 28px 32px;font-size:12px;line-height:1.5;color:#64748b;border-top:1px solid #f1f5f9;">
-${opts.footer ?? `Sent by GatekeeperAI on behalf of the recipient's vendor desk. Payments, when any, go to GatekeeperAI, never to the executive.`}
+${opts.footer ?? `Sent by FILTR on behalf of the recipient's vendor desk. Payments, when any, go to FILTR, never to the executive.`}
 </td></tr>
 </table>
 </td></tr></table>

@@ -7,8 +7,8 @@ const dir = path.resolve("tests/fixtures/inbound");
 fs.mkdirSync(dir, { recursive: true });
 
 const EXEC = "claire.dubois@northwindpay.eu";
-const FWD = "claire.dubois+k7f3q9@in.gatekeeperai.app";
-const ALIAS = "claire.dubois@in.gatekeeperai.app";
+const FWD = "claire.dubois+k7f3q9@in.filtr.ai";
+const ALIAS = "claire.dubois@in.filtr.ai";
 const authPass = { Name: "Authentication-Results", Value: "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu" };
 
 const base = (over) => ({
@@ -125,9 +125,9 @@ const fixtures = {
     From: "sam.oneill@gridline.net",
     FromName: "Sam O'Neill",
     FromFull: { Email: "sam.oneill@gridline.net", Name: "Sam O'Neill" },
-    To: "r+tok_gridline@in.gatekeeperai.app",
-    ToFull: [{ Email: "r+tok_gridline@in.gatekeeperai.app", Name: "" }],
-    OriginalRecipient: "r+tok_gridline@in.gatekeeperai.app",
+    To: "r+tok_gridline@in.filtr.ai",
+    ToFull: [{ Email: "r+tok_gridline@in.filtr.ai", Name: "" }],
+    OriginalRecipient: "r+tok_gridline@in.filtr.ai",
     MailboxHash: "tok_gridline",
     Subject: "Automatic reply: Re: Zero-trust network access for hybrid teams",
     Headers: [

@@ -111,7 +111,7 @@ export async function startPitchFromLink(input: { exec: ExecProfile; email: stri
     senderName: input.name,
     companyName: input.company,
     source: "link",
-    subject: "Pitch via your GatekeeperAI link",
+    subject: "Pitch via your FILTR link",
     snippet: "Submitted through the Pitch Me page.",
   });
   // Link pitches skip the cold-email challenge: the vendor came to us.

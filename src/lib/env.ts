@@ -79,7 +79,7 @@ export function models() {
 export function mailDomains() {
   const e = getEnv();
   return {
-    from: e.MAIL_FROM_DOMAIN ?? "mail.gatekeeperai.app",
-    inbound: e.INBOUND_DOMAIN ?? "in.gatekeeperai.app",
+    from: e.MAIL_FROM_DOMAIN ?? "mail.filtr.ai",
+    inbound: e.INBOUND_DOMAIN ?? "in.filtr.ai",
   };
 }

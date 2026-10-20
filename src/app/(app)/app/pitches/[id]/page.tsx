@@ -179,7 +179,7 @@ export default async function PitchDetailPage({ params, searchParams }: { params
                   {payment.provider === "demo" ? <span className="ml-1 text-xs text-slate-400">(simulated)</span> : null}
                 </div>
                 {payment.slaDeadline ? <div>Review due by {formatDate(payment.slaDeadline, tz)}</div> : null}
-                <div className="text-xs text-slate-500">Paid to GatekeeperAI{payment.charity ? " and donated to charity" : ""}, never to you. Auto-refund if not reviewed in 7 days.</div>
+                <div className="text-xs text-slate-500">Paid to FILTR{payment.charity ? " and donated to charity" : ""}, never to you. Auto-refund if not reviewed in 7 days.</div>
                 {isDemoMode() && payment.status === "paid" && pitch.status === "surfaced" ? (
                   <form action={fastForwardSlaAction} className="pt-2">
                     <input type="hidden" name="pitchId" value={pitch.id} />

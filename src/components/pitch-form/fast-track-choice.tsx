@@ -23,7 +23,7 @@ export function FastTrackChoice({ price, execFirstName, charityName, enabled }: 
             </span>
           </span>
           <span className="mt-1 text-sm text-slate-500">
-            Guaranteed personal review within 7 days, or an automatic refund. {charityName ? `Fee donated to ${charityName}.` : "Paid to GatekeeperAI, never to the executive."}
+            Guaranteed personal review within 7 days, or an automatic refund. {charityName ? `Fee donated to ${charityName}.` : "Paid to FILTR, never to the executive."}
           </span>
         </label>
       </div>

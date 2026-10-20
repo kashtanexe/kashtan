@@ -33,7 +33,7 @@ export default async function DemoCheckoutPage({ params, searchParams }: { param
           <div>
             <div className="text-sm text-slate-500">Fast-Track review by {exec.fullName}</div>
             <div className="text-3xl font-bold">{formatEur(payment.amountCents, payment.currency)}</div>
-            <div className="mt-1 text-xs text-slate-500">Guaranteed personal review within 7 days, or an automatic refund. Paid to GatekeeperAI, never to the executive.</div>
+            <div className="mt-1 text-xs text-slate-500">Guaranteed personal review within 7 days, or an automatic refund. Paid to FILTR, never to the executive.</div>
           </div>
           <form action={action} className="space-y-3">
             <div className="relative">

@@ -11,7 +11,7 @@ export function buildBookingLink(calendarUrl: string, vendor: { name: string; em
       // Cal.com and most others accept name/email query params
       url.searchParams.set("name", vendor.name);
       url.searchParams.set("email", vendor.email);
-      url.searchParams.set("notes", `Intro via GatekeeperAI: ${vendor.company}`);
+      url.searchParams.set("notes", `Intro via FILTR: ${vendor.company}`);
     }
     return url.toString();
   } catch {

@@ -55,7 +55,7 @@ describe("end-to-end demo flow", () => {
     const challenge = outbox.find((e) => e.kind === "challenge" && e.pitchId === pitch.id)!;
     expect(challenge.to).toBe("k.weber@logwerk.de");
     expect(challenge.headers["Auto-Submitted"]).toBe("auto-replied");
-    expect(challenge.replyTo).toMatch(/^r\+.+@in\.gatekeeperai\.app$/);
+    expect(challenge.replyTo).toMatch(/^r\+.+@in\.filtr\.ai$/);
     expect(challenge.from).toContain("Vendor Desk");
 
     // Replaying the same Postmark message is a no-op
@@ -102,7 +102,7 @@ describe("end-to-end demo flow", () => {
     const repo = mods.getRepo();
     const before = (await repo.listOutbox(500)).length;
     expect((await mods.handleInbound(load("spoofed-exec.json"))).outcome).toBe("dropped:spoofed_forward");
-    expect((await mods.handleInbound({ ...load("ooo-autoreply.json"), To: "claire.dubois@in.gatekeeperai.app", ToFull: [{ Email: "claire.dubois@in.gatekeeperai.app" }], OriginalRecipient: "claire.dubois@in.gatekeeperai.app" })).outcome).toBe(
+    expect((await mods.handleInbound({ ...load("ooo-autoreply.json"), To: "claire.dubois@in.filtr.ai", ToFull: [{ Email: "claire.dubois@in.filtr.ai" }], OriginalRecipient: "claire.dubois@in.filtr.ai" })).outcome).toBe(
       "dropped:auto_submitted",
     );
     expect((await repo.listOutbox(500)).length).toBe(before);

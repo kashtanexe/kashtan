@@ -50,7 +50,7 @@ describe("loop guard", () => {
 
   it("blocks suppressed senders and our own domains", () => {
     expect(checkLoopGuard({ senderEmail: "a@b.com", suppressed: true })).toMatchObject({ reason: "suppressed" });
-    expect(checkLoopGuard({ senderEmail: "desk@mail.gatekeeperai.app", ownDomains: ["gatekeeperai.app"] })).toMatchObject({ reason: "own_domain" });
+    expect(checkLoopGuard({ senderEmail: "desk@mail.filtr.ai", ownDomains: ["filtr.ai"] })).toMatchObject({ reason: "own_domain" });
   });
 
   it("rejects invalid addresses", () => {

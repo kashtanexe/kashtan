@@ -44,10 +44,10 @@ describe("verify forwarder (DMARC / DKIM alignment)", () => {
 
 describe("classify route", () => {
   it("detects the exec forwarding address with its secret", () => {
-    expect(classifyRecipient(load("gmail-web-forward.json"), "in.gatekeeperai.app")).toMatchObject({ kind: "alias", localPart: "claire.dubois", secret: "k7f3q9" });
+    expect(classifyRecipient(load("gmail-web-forward.json"), "in.filtr.ai")).toMatchObject({ kind: "alias", localPart: "claire.dubois", secret: "k7f3q9" });
   });
   it("detects vendor replies via the tokenised Reply-To", () => {
-    expect(classifyRecipient(load("ooo-autoreply.json"), "in.gatekeeperai.app")).toMatchObject({ kind: "vendor_reply", token: "tok_gridline" });
+    expect(classifyRecipient(load("ooo-autoreply.json"), "in.filtr.ai")).toMatchObject({ kind: "vendor_reply", token: "tok_gridline" });
   });
   it("tells exec forwards from direct vendor mail", () => {
     expect(classifyAliasMessage("Claire.Dubois@northwindpay.eu", addrs)).toBe("exec_forward");
