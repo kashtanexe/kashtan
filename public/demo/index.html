@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"></head><body><title>GatekeeperAI Demo</title>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"></head><body><title>FILTR Demo</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -60,9 +60,9 @@ button { cursor: pointer; }
 /* top bar */
 .bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
 .bar-in { max-width: 1160px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; align-items: center; gap: 18px; min-height: 56px; flex-wrap: wrap; }
-.brand { display: flex; align-items: center; gap: 9px; font-family: var(--f-display); font-weight: 700; font-size: 19px; white-space: nowrap; }
-.brand-mark { width: 26px; height: 26px; border-radius: 7px; background: var(--ink); display: grid; place-items: center; }
-.brand-mark svg { width: 15px; height: 15px; }
+.brand { display: flex; align-items: center; gap: 7px; font-family: var(--f-display); font-weight: 700; font-size: 15px; letter-spacing: .06em; white-space: nowrap; }
+.brand-mark { width: 20px; height: 20px; border-radius: 5px; background: var(--ink); display: grid; place-items: center; }
+.brand-mark svg { width: 12px; height: 12px; }
 .tabs { display: flex; gap: 2px; overflow-x: auto; flex: 1; min-width: 0; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
 .tab { border: 0; background: none; padding: 17px 12px 15px; color: var(--ink-2); font-weight: 500; white-space: nowrap; border-bottom: 2px solid transparent; }
@@ -241,6 +241,8 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
   .bar-in { gap: 8px; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+.foot { border-top: 1px solid var(--line); background: var(--surface); }
+.foot-in { max-width: 1160px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 16px calc(16px + env(safe-area-inset-bottom, 0px)); display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .lang { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .lang button { border: 0; background: var(--surface); color: var(--ink-2); font-family: var(--f-mono); font-size: 12.5px; font-weight: 600; padding: 6px 10px; }
 .lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
@@ -248,17 +250,18 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
 
 <header class="bar">
   <div class="bar-in">
-    <div class="brand"><span class="brand-mark"><svg viewBox="0 0 16 16" fill="none"><path d="M2 3h12l-4.5 5.2V13l-3 1.2V8.2L2 3z" fill="var(--bg)"/></svg></span><span>GatekeeperAI</span></div>
+    <div class="brand"><span class="brand-mark"><svg viewBox="0 0 16 16" fill="none"><path d="M2 3h12l-4.5 5.2V13l-3 1.2V8.2L2 3z" fill="var(--bg)"/></svg></span><span>FILTR</span></div>
     <nav class="tabs" role="tablist" id="tabs"></nav>
-    <div class="bar-right"><span class="pill-demo" id="aiMode"></span><div class="lang" role="group" aria-label="Language / Langue"><button data-lang="en" aria-pressed="true">EN</button><button data-lang="fr" aria-pressed="false">FR</button></div><button class="btn ghost sm" id="resetBtn"></button></div>
+    <div class="bar-right"><span class="pill-demo" id="aiMode"></span><button class="btn ghost sm" id="resetBtn"></button></div>
   </div>
 </header>
 <main class="wrap" id="view"></main>
+<footer class="foot"><div class="foot-in"><span class="ai-tag">FILTR</span><div class="lang" role="group" aria-label="Language / Langue"><button data-lang="en" aria-pressed="true">EN</button><button data-lang="fr" aria-pressed="false">FR</button></div></div></footer>
 <div id="modalRoot"></div>
 
 <script>
 (function () {
-  const BRAND = "GatekeeperAI";
+  const BRAND = "FILTR";
   const ACV = ["<5k€", "5k€–25k€", "25k€–100k€", "100k€+"];
   const ACV_MAX = ["5k€", "25k€", "100k€"];
   const COMP = ["soc2", "iso", "gdpr", "onprem", "sso"];
@@ -479,7 +482,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
       dealbreakers: "EDR, détection endpoint, antivirus (engagés avec CrowdStrike jusqu’en 2028)\npas d’hébergement des données dans l’UE\nprospection, SDR, outils d’outbound" }
   };
   function seedExec() {
-    return Object.assign({ name: "Claire Martin", first: "Claire", company: "Novabank", slug: "claire-martin", alias: "pitches@novabank.gatekeeper.ai",
+    return Object.assign({ name: "Claire Martin", first: "Claire", company: "Novabank", slug: "claire-martin", alias: "pitches@novabank.filtr.ai",
       budget: 3, required: ["gdpr", "sso"], threshold: 85, autoUnlock: false, calendar: "cal.com/claire-novabank/30min", fastPrice: 30, charity: false, edited: false }, JSON.parse(JSON.stringify(EXEC_TEXT[lang])));
   }
 
@@ -829,7 +832,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
     if (vendorStep === 0) {
       const n = (draft.contact || "Ryan").split(" ")[0];
       $("#view").innerHTML = '<div class="stack">' + head +
-        '<div class="email-frame"><div class="email-meta">' + mailHead([["m.from", esc(t("ch.from", { first: ex.first })) + " &lt;desk@mail.gatekeeper.ai&gt;"], ["m.to", esc(draft.email || "ryan@signalfence.io")], ["m.reply", "r+7KQ2M9@in.gatekeeper.ai"], ["m.subject", esc(t("ch.subject", { first: ex.first }))]]) + "</div>" +
+        '<div class="email-frame"><div class="email-meta">' + mailHead([["m.from", esc(t("ch.from", { first: ex.first })) + " &lt;desk@mail.filtr.ai&gt;"], ["m.to", esc(draft.email || "ryan@signalfence.io")], ["m.reply", "r+7KQ2M9@in.filtr.ai"], ["m.subject", esc(t("ch.subject", { first: ex.first }))]]) + "</div>" +
         '<div class="email-body"><p>' + esc(t("ch.hi", { n })) + "</p><p>" + esc(t("ch.p1", { first: ex.first, company: ex.company })) + "</p><p>" + esc(t("ch.p2")) + "</p>" +
         '<div><button class="btn primary" id="toBrief">' + t("ch.cta") + "</button></div>" +
         '<p class="small muted">' + esc(t("ch.p3", { first: ex.first })) + "</p>" +
@@ -951,7 +954,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
     const mini = (p) => '<div class="mini">' + ring(p.score, 50) + '<div class="stack" style="gap:6px"><div class="row" style="justify-content:space-between"><b>' + esc(p.vendor) + "</b>" + (p.fast ? '<span class="chip amber">' + esc(t("d.due", { d: L(p, "due") })) + "</span>" : "") + '</div><div class="small muted">' + esc(L(p, "tldr")[0]) + '</div><div class="row" style="gap:6px"><button class="btn sm good" data-act="accept" data-id="' + p.id + '">' + t("d.accept") + '</button><button class="btn sm" data-act="pass" data-id="' + p.id + '">' + t("c.pass") + '</button><button class="btn sm ghost" data-act="open" data-id="' + p.id + '">' + t("d.card") + "</button></div></div></div>";
     const hours = (Math.round(state.weekBlocked * 2.5 / 60 * 10) / 10).toLocaleString(t("locale"));
     $("#view").innerHTML = '<div class="stack"><div><div class="eyebrow">' + esc(t("d.eyebrow", { first: ex.first })) + '</div><h2 style="margin-top:4px">' + t("d.title") + "</h2></div>" +
-      '<div class="email-frame"><div class="email-meta">' + mailHead([["m.from", BRAND + " &lt;digest@mail.gatekeeper.ai&gt;"], ["m.to", "claire.martin@novabank.eu"], ["m.subject", esc(t("d.subject", { n: state.weekBlocked, m: worth }))]]) + "</div>" +
+      '<div class="email-frame"><div class="email-meta">' + mailHead([["m.from", BRAND + " &lt;digest@mail.filtr.ai&gt;"], ["m.to", "claire.martin@novabank.eu"], ["m.subject", esc(t("d.subject", { n: state.weekBlocked, m: worth }))]]) + "</div>" +
       '<div class="email-body"><p>' + esc(t("d.hello", { first: ex.first })) + "</p>" +
       '<div class="digest-stats"><div><div class="eyebrow">' + t("d.stopped") + '</div><div class="mono" style="font-size:24px">' + state.weekBlocked + '</div></div><div><div class="eyebrow">' + t("d.saved") + '</div><div class="mono" style="font-size:24px">' + t("d.hours", { h: hours }) + '</div></div><div><div class="eyebrow">' + t("d.worth") + '</div><div class="mono" style="font-size:24px;color:var(--good)">' + worth + "</div></div></div>" +
       (fast.length ? '<div class="stack" style="gap:10px"><h3>' + esc(t("d.fastH")) + "</h3>" + fast.map(mini).join("") + "</div>" : "") +
@@ -974,7 +977,7 @@ input[type=range] { width: 100%; accent-color: var(--accent); }
       '<label class="switch"><input type="checkbox" id="p-char"' + (ex.charity ? " checked" : "") + "><span><b>" + esc(t("p.char")) + '</b><br><span class="small muted">' + esc(t("p.charD")) + "</span></span></label>" +
       '<div class="row"><button class="btn primary" type="submit">' + t("p.save") + '</button><span class="small muted">' + esc(t("p.saveNote")) + "</span></div></form>" +
       '<div class="stack"><div class="panel stack" style="gap:14px"><h3>' + t("p.linkH") + '</h3><p class="small muted">' + esc(t("p.linkD")) + "</p>" +
-      '<div class="copyrow"><input type="text" id="lnk" readonly value="gatekeeper.ai/in/' + esc(ex.slug) + '"><button class="btn" data-copy="lnk">' + t("copy") + "</button></div></div>" +
+      '<div class="copyrow"><input type="text" id="lnk" readonly value="filtr.ai/in/' + esc(ex.slug) + '"><button class="btn" data-copy="lnk">' + t("copy") + "</button></div></div>" +
       '<div class="panel stack" style="gap:14px"><h3>' + t("p.aliasH") + '</h3><p class="small muted">' + esc(t("p.aliasD")) + "</p>" +
       '<div class="copyrow"><input type="text" id="als" readonly value="' + esc(ex.alias) + '"><button class="btn" data-copy="als">' + t("copy") + "</button></div>" +
       '<div class="small" style="border-top:1px solid var(--line);padding-top:12px"><b>' + t("p.rec") + "</b>" + esc(t("p.recT")) + "</div></div>" +
