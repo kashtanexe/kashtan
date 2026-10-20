@@ -1,0 +1,37 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "<div dir=\"ltr\">worth a look?<br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">---------- Forwarded message ---------<br>From: <strong class=\"gmail_sendername\" dir=\"auto\">Ana Lima</strong> <span dir=\"auto\">&lt;<a href=\"mailto:ana.lima@keyward.io\">ana.lima@keyward.io</a>&gt;</span><br>Date: Mon, 19 Oct 2026 at 08:02<br>Subject: Passkeys for 2,000 staff in 6 weeks<br>To: &lt;<a href=\"mailto:claire.dubois@northwindpay.eu\">claire.dubois@northwindpay.eu</a>&gt;<br></div><br><br><div dir=\"ltr\">Hi Claire,<br><br>We rolled out passkeys to 4,800 staff...</div></div></div>",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-gmail-web-0001",
+  "Subject": "Fwd: Passkeys for 2,000 staff in 6 weeks",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    }
+  ],
+  "TextBody": "worth a look?\n\n---------- Forwarded message ---------\nFrom: Ana Lima <ana.lima@keyward.io>\nDate: Mon, 19 Oct 2026 at 08:02\nSubject: Passkeys for 2,000 staff in 6 weeks\nTo: <claire.dubois@northwindpay.eu>\n\n\nHi Claire,\n\nWe rolled out passkeys to 4,800 staff at a Benelux bank in 7 weeks. Worth a 20 minute call next week?\n\nAna"
+}

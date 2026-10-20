@@ -1,0 +1,39 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "news@securityweekly-digest.com",
+  "FromFull": {
+    "Email": "news@securityweekly-digest.com",
+    "Name": "Security Weekly"
+  },
+  "To": "claire.dubois@in.gatekeeperai.app",
+  "ToFull": [
+    {
+      "Email": "claire.dubois@in.gatekeeperai.app",
+      "Name": ""
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois@in.gatekeeperai.app",
+  "ReplyTo": "",
+  "MailboxHash": "",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-news-0001",
+  "Subject": "This week in security",
+  "Headers": [
+    {
+      "Name": "List-Unsubscribe",
+      "Value": "<https://securityweekly-digest.com/u/123>"
+    },
+    {
+      "Name": "Precedence",
+      "Value": "bulk"
+    }
+  ],
+  "TextBody": "Top stories this week... Unsubscribe | View in browser"
+}

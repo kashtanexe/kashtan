@@ -1,0 +1,37 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-outlook-es-0001",
+  "Subject": "RV: Gobernanza de IA generativa",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    }
+  ],
+  "TextBody": "\n\n________________________________\nDe: Lucía Fernández <lucia.fernandez@guardia-ia.es>\nEnviado: lunes, 19 de octubre de 2026 9:02\nPara: Claire Dubois <claire.dubois@northwindpay.eu>\nAsunto: Gobernanza de IA generativa\n\nHola Claire,\n\n¿Tienes 15 minutos para hablar de fugas de datos en ChatGPT?\n\nLucía"
+}

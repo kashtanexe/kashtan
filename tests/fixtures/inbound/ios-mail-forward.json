@@ -1,0 +1,41 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-ios-0001",
+  "Subject": "Fwd: Your Splunk renewal",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    },
+    {
+      "Name": "X-Mailer",
+      "Value": "iPhone Mail (22A3354)"
+    }
+  ],
+  "TextBody": "Sent from my iPhone\n\nBegin forwarded message:\n\n> From: Priya Raman <priya.raman@driftwood-analytics.com>\n> Date: 19 October 2026 at 07:12:44 CEST\n> To: Claire Dubois <claire.dubois@northwindpay.eu>\n> Subject: Your Splunk renewal\n>\n> Hi Claire, before your Splunk renewal, worth seeing how teams cut ingest cost 40%? Quick call Thursday?\n>\n> Priya"
+}

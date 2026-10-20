@@ -1,0 +1,37 @@
+{
+  "FromName": "Claire Dubois",
+  "MessageStream": "inbound",
+  "From": "claire.dubois@northwindpay.eu",
+  "FromFull": {
+    "Email": "claire.dubois@northwindpay.eu",
+    "Name": "Claire Dubois",
+    "MailboxHash": ""
+  },
+  "To": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ToFull": [
+    {
+      "Email": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+      "Name": "",
+      "MailboxHash": "k7f3q9"
+    }
+  ],
+  "Cc": "",
+  "CcFull": [],
+  "OriginalRecipient": "claire.dubois+k7f3q9@in.gatekeeperai.app",
+  "ReplyTo": "",
+  "MailboxHash": "k7f3q9",
+  "Date": "Mon, 19 Oct 2026 09:14:02 +0200",
+  "HtmlBody": "",
+  "StrippedTextReply": "",
+  "Tag": "",
+  "Attachments": [],
+  "MessageID": "fx-outlook-de-0001",
+  "Subject": "WG: SIEM-Kosten halbieren",
+  "Headers": [
+    {
+      "Name": "Authentication-Results",
+      "Value": "mx.postmarkapp.com; dkim=pass header.d=northwindpay.eu header.s=selector1; spf=pass smtp.mailfrom=northwindpay.eu; dmarc=pass (p=REJECT sp=REJECT) header.from=northwindpay.eu"
+    }
+  ],
+  "TextBody": "FYI\n\n-----Ursprüngliche Nachricht-----\nVon: Katrin Weber [mailto:k.weber@logwerk.de]\nGesendet: Montag, 19. Oktober 2026 07:55\nAn: Dubois, Claire <claire.dubois@northwindpay.eu>\nBetreff: SIEM-Kosten halbieren\n\nHallo Frau Dubois,\n\nwir senken SIEM-Kosten um 40 %. Hätten Sie 15 Minuten?\n\nKatrin Weber"
+}
